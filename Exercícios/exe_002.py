@@ -1,0 +1,5 @@
+print('=' * 5, 'Desafio 01', '=' * 5)
+dia = input('Dia - ')
+mes = input('Mês - ')
+ano = input('Ano - ')
+print('Você nascecu no dia', dia, 'de', mes, 'de', ano, '. Correto?')
