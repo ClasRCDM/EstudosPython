@@ -3,4 +3,4 @@ lar = float(input('Largura: '))
 alt = float(input('Altura: '))
 area = lar * alt
 print('A área é {:.2f}, precisa de {:.2f} litros de tinta'.format(area,
-                                                          area / 2))
+                                                                  area / 2))
