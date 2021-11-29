@@ -7,6 +7,6 @@ IA = randint(0, 5)
 jogador = int(input('Descubra qual numero a IA jogou: [0 a 5] : '))
 
 if jogador == IA:
-    print('Você acertou PARÁBENS!')
+    print('Você acertou PARABÉNS!')
 else:
     print('I você errooouuu!!!')
