@@ -1,6 +1,6 @@
 print('{0} Desafio {0}'.format('=' * 10))
 
-frase = str(input('Uma frase: '))
+frase = str(input('Uma frase: ')).strip().lower()
 
 vezes = frase.count('a')
 posicao = frase.find('a')
