@@ -9,6 +9,6 @@ if salario > 1250:
     calculo = salario * 10/100 + salario
 else:
     print('Aumento de 15%')
-    calculo = salario * 10/100 + salario
+    calculo = salario * 15/100 + salario
 
 print('Você recebera um aumento de R${}'.format(calculo))
