@@ -6,8 +6,10 @@ print('\033[31mEscolha entre Binário, Octal e Hexadecimal\033[m')
 conversao = str(input('Qual: \033[32m')).strip().title()
 
 if conversao in 'Binário Binario':
-    print('{}, Se torna {}'.format(numero, binario))
+    print('{}, Se torna {} em Binário'.format(numero, bin(numero)))
 elif conversao == 'Octal':
-    pass
+    print('{}, Se torna {} em Octal'.format(numero, oct(numero)))
 elif conversao == 'Hexadecimal':
-    pass
+    print('{}, Se torna {} em hexadecimal'.format(numero, hex(numero)))
+else:
+    print('Opção inválida. Tente novamente')
