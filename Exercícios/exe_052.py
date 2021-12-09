@@ -1,4 +1,4 @@
-print('{1}{0} Desafio 45 {0}{2}'.format('=' * 10, '\033[4;33m', '\033[m'))
+print('{1}{0} Desafio 52 {0}{2}'.format('=' * 10, '\033[4;33m', '\033[m'))
 
 n = int(input('Dígite um número: '))
 tot = 0
