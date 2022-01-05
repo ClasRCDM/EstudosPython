@@ -1,4 +1,4 @@
-print('{1}{0} Desafio 58 {0}{2}'.format('=' * 10, '\033[4;33m', '\033[m'))
+print('{1}{0} Desafio 59 {0}{2}'.format('=' * 10, '\033[4;33m', '\033[m'))
 
 nu1 = int(input('Primeiro valor: '))
 nu2 = int(input('Segundo valor: '))
