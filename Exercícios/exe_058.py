@@ -6,10 +6,21 @@ IA = randint(0, 10)
 
 tentativas = 0
 
-num = int(input('Tente adivinhar [0/10] '))
+num = int(input('Tente adivinhar [0/10]: '))
 while num != IA:
-    print('Você errou, tente novamente - [0/10]!!!')
+    print('\nVocê errou, tente novamente - [0/10]!!!')
     tentativas += 1
+
+    if num < IA:
+        print('Maior... Tente de novo.\n')
+    elif num > IA:
+        print('Menor... Tente outro.\n')
+
     num = int(input('Tente adivinhar [0/10] '))
+
 else:
-    print(f'Você acertou!!, Com {tentativas} tentativas.')
+    tentativas += 1
+    print('Você acertou!!',
+          f'Com {tentativas} tentativas.'
+          if tentativas > 1 else
+          f'Com {tentativas} tentativa.')
