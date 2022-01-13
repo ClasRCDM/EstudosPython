@@ -1,13 +1,13 @@
-print('{1}{0}{2}'.format(f'{" Exercício 66 ":=^25}', '\033[4;33m', '\033[m'))
+print('{1}{0}{2}{3}'.format(
+    f'{" Exercício 66 ":=^25}', '\033[4;33m', '\033[m', '\n'))
 
-quant = soma = int(0)
+quant = soma = number = int(0)
 
 while True:
-    number = int(input('Digite um número: '))
+    number, soma = int(input('Digite um número: ')), soma + number
 
-    if number == 999:break
+    if number == 999: break
 
     quant += 1
-    soma += number
 
-print(f'Você digitou {quant} números e a soma dos mesmo é {soma}!')
+print(f'Você digitou {quant} números e a soma dos mesmos é {soma}!')
