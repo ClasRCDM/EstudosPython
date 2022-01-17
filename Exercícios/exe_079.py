@@ -1,4 +1,4 @@
-print('{1}{0}{2}{3}'.format(f'{"_ Exercício 79 _":=^25}',
+print('{1}{0}{2}{3}'.format(f'{"_ Exercício 80 _":=^25}',
       '\033[4;33m<< ', ' >>\033[m', '\n'))
 
 lista = list()
