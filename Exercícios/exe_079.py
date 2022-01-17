@@ -14,4 +14,4 @@ while True:
     else: break
 
 print('-=' * 15)
-print('Você digitou os valores:', ' - '.join([str(valores) for valores in lista]))
+print('Você digitou os valores:', ' - '.join([str(valores) for valores in sorted(lista)]))
