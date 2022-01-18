@@ -9,5 +9,5 @@ for x in range(len(lista)):
 else:
     for x in range(len(lista)):
         for y in range(len(lista)):
-            print(f'[  {lista[x][y]}  ]', end='')
+            print(f'[  {lista[x][y]:^5} ]', end='')
         print()
