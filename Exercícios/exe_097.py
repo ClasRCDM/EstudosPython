@@ -7,6 +7,8 @@ def escreva(msg):
     print('{1}{2}{0}{2}{1}'.format(f' {msg} ', '~' * tam, '\n'))
 
 
+# -
+
 escreva('Gustavo Guanabara')
 escreva('Raphael')
 escreva('Deus__')
