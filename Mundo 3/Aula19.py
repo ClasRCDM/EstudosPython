@@ -1,4 +1,4 @@
-print('{1}{0}{2}{3}'.format(f'{"_ Aula 18 _":=^25}',
+print('{1}{0}{2}{3}'.format(f'{"_ Aula 19 _":=^25}',
       '\033[4;33m<< ', ' >>\033[m', '\n'))
 
 dicionario = {'nome': 'Gustavo', 'sexo': 'M', 'idade': 22}
